@@ -1,8 +1,29 @@
 aid: case-status
 name: Case Status
-description: Case Status is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Case Status is a Charleston, South Carolina legal technology company, founded in 2018 by Andy
+  Seavers and Lauren Gulley, that builds an AI-powered client engagement, experience, and
+  communication platform for modern law firms. It delivers a branded, mobile-first client portal
+  (iOS and Android), a CMS-integrated secure messaging hub with 1:1, bulk, and automated options,
+  AI-driven Client Intelligence (message urgency triage, response recommendations, case
+  summarization, sentiment prediction, and translation across 140+ languages), and client
+  satisfaction analytics such as NPS, Predictive NPS, and CSAT. Case Status integrates with leading
+  case management systems including Clio, Litify, MyCase, Neos, Filevine, SmartAdvocate, Docketwise,
+  PracticePanther, SmokeBall, CASEpeer, MerusCase, CoCounselor, Salesforce, NuLaw, Matterly, and
+  Zapier, plus a Chrome extension for attorneys. It was surfaced as a portfolio company of Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/case-status/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65f0b710052a39d20f058f70/65fb7a05597705e5e448b938_fav-icon-256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Legal
+- Legal Tech
+- Client Communication
+- Case Management
+- Client Portal
+- Client Experience
+- Artificial Intelligence
+- Messaging
+- Law Firms
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://casestatus.com/
+- type: Blog
+  url: https://www.casestatus.com/blog
+- type: Support
+  url: https://intercom.help/case-status-support/en
+- type: HelpCenter
+  url: https://intercom.help/case-status-support/en
+- type: Integrations
+  url: https://casestatus.com/integrations
+- type: TermsOfService
+  url: https://casestatus.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://casestatus.com/privacy-policy
+- type: Security
+  url: https://casestatus.com/security-commitment
+- type: Compliance
+  url: https://casestatus.com/security-commitment
+- type: Conformance
+  url: conformance/case-status-conformance.yml
+- type: DomainSecurity
+  url: security/case-status-domain-security.yml
+- type: LLMsTxt
+  url: llms/case-status-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
